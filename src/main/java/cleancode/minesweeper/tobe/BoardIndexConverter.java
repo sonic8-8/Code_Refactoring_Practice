@@ -18,7 +18,7 @@ public class BoardIndexConverter {
         int rowIndex = Integer.parseInt(cellInputRow) - 1;
         if (rowIndex < 0) {
             throw new GameException("잘못된 입력입니다.");
-        };
+        }
         return rowIndex;
     }
 
